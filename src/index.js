@@ -1,2 +1,2 @@
-require('@babel/register');
-require('./logA');
+import { logA } from './es6';
+logA();
